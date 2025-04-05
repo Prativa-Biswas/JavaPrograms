@@ -1,0 +1,23 @@
+package com.nt.StringHandling.Questions;
+//Write a Java function to find the longest palindromic substring in a given string
+
+import java.util.Scanner;
+
+public class LongestPalindromicSubstring {
+
+	public static void main(String[] args) {
+
+		Scanner sc= new Scanner(System.in);
+		System.out.println("Enter your String");
+		String str= sc.nextLine().trim();
+		String arr[]=str.split("\\s+");
+		String longPalindrome="";
+		int lenght=0;
+		for(String word:arr)
+		{
+			if(word.length()>lenght)
+		}
+		
+	}
+
+}

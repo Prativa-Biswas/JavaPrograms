@@ -1,0 +1,33 @@
+package com.nt.StringHandling.Questions;
+
+import java.util.HashSet;
+import java.util.Scanner;
+
+public class CountOccurrencesofWordinSentence {
+
+	public static void main(String[] args) {
+
+		Scanner sc= new Scanner(System.in);
+		System.out.println("Enter a Sentence: ");	
+		String sentence=sc.nextLine().trim();
+		String srr[]=sentence.split("\\s+");
+		
+		HashSet<String> counted = new HashSet<>();
+		
+		for(int i=0;i<srr.length;i++) // the
+		{ if(!counted.contains(srr[i].toLowerCase())) {
+			int count =0;
+			for(int j=0;j<srr.length;j++) // birds
+			{
+				if(srr[i].equalsIgnoreCase(srr[j]))
+					count++;
+					
+			}
+			System.out.println(srr[i]+" Occurance : "+count);
+			counted.add(srr[i].toLowerCase());
+		  }
+	    }
+		
+	}
+
+}

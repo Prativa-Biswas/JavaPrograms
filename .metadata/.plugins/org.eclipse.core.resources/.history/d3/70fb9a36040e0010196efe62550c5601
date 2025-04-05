@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class FindLongestWord {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter your sentence:");
+        String str = sc.nextLine().trim();  // Remove leading & trailing spaces
+
+        // Split sentence into words (handles multiple spaces correctly)
+        String[] words = str.split("\\s+");
+
+        // Initialize variables to track the longest word
+        String longestWord = "";
+        int maxLength = 0;
+
+        // Loop through words and find the longest one
+        for (String word : words) {
+            if (word.length() > maxLength) {
+                maxLength = word.length();
+                longestWord = word;
+            }
+        }
+
+        // Print result
+        if (!longestWord.isEmpty()) {
+            System.out.println("Longest word: " + longestWord);
+        } else {
+            System.out.println("No words found!");
+        }
+
+        sc.close();
+    }
+}

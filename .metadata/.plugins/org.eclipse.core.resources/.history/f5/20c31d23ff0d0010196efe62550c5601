@@ -1,0 +1,16 @@
+package com.nt.StringHandling.Questions;
+
+import java.util.Scanner;
+
+//Given a sentence, find the longest word in it
+public class FindLongestWordinSentence {
+
+	public static void main(String[] args) {
+
+		Scanner sc= new Scanner(System.in);
+		System.out.println("Enter your String");
+		String str= sc.nextLine().toLowerCase().trim().replace(" ", "\n");
+		System.out.println(str);
+	}
+
+}

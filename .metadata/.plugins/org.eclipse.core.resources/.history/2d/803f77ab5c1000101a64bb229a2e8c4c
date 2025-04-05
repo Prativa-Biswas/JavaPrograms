@@ -1,0 +1,18 @@
+package com.nt.StringHandling.Questions;
+
+public class RemoveSpecificCharacter {
+
+	public static void main(String[] args) {
+
+		String s= "Prativa";
+		String c="a";
+		if(s.contains(c))
+		{
+			for(int i=0;i<s.length();i++)
+			{
+				
+			}
+		}
+	}
+
+}

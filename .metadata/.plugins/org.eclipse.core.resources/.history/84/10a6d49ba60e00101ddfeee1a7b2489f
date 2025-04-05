@@ -1,0 +1,18 @@
+package com.nt.StringHandling.Questions;
+
+import java.util.Scanner;
+
+public class FindAllSubstrings {
+
+	public static void main(String[] args) {
+
+		Scanner sc= new Scanner(System.in);
+		System.out.println("Enter a String: ");
+		String str= sc.nextLine().trim();
+		int n=(str.length()*(str.length()+1))/2;
+		//System.out.println(n);
+		System.out.println(str.substring(0, 1));
+
+	}
+
+}

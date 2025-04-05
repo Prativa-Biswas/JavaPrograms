@@ -1,0 +1,17 @@
+package com.nt.StringHandling.Questions;
+
+import java.util.Scanner;
+
+//Write a program to find the most frequently occurring character in a string.
+
+public class FindtheMostFrequentCharacter {
+
+	public static void main(String[] args) {
+		
+		Scanner sc= new Scanner(System.in);
+		System.out.println("Enter a String: ");
+		String str=sc.next();
+
+	}
+
+}

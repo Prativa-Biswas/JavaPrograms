@@ -1,0 +1,25 @@
+package com.nt.StringHandling.Questions;
+
+import java.util.Scanner;
+
+public class RemoveSpecificCharacter {
+
+	public static void main(String[] args) {
+
+		Scanner sc= new Scanner(System.in);
+		System.out.println("Enter a String");
+		String s=sc.next().toLowerCase().trim();
+		String c="a";
+		StringBuffer string=new StringBuffer(s);
+
+			for(int i=0;i<string.length();i++)
+			{
+				if(string.charAt(i)=='a') {
+					 string.deleteCharAt(i);
+				}
+			}
+		System.out.println(string.toString());
+		
+	}
+
+}

@@ -1,0 +1,10 @@
+package com.nt.StringHandling.Questions;
+//Write a Java function to find the longest palindromic substring in a given string
+
+public class LongestPalindromicSubstring {
+
+	public static void main(String[] args) {
+
+	}
+
+}

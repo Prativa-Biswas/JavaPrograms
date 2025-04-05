@@ -1,0 +1,39 @@
+package com.nt.StringHandling.Questions;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Scanner;
+import java.util.Set;
+
+//Write a function to check if two strings are anagrams (contain the same characters in a different order).
+
+public class AnagramCheck {
+
+	public static void main(String[] args) {
+
+		Scanner sc= new Scanner(System.in);
+		System.out.println("Enter First String");
+		String str1=sc.nextLine().toLowerCase();
+		System.out.println("Enter Second String");
+		String str2=sc.nextLine().toLowerCase();
+	    List<Character> s1=new ArrayList<>();  
+	    List<Character> s2=new ArrayList<>();  
+		for(int i=0;i<str1.length();i++)
+		{
+			s1.add(str1.charAt(i));
+		}
+		
+		for(int i=0;i<str2.length();i++)
+		{
+			s2.add(str2.charAt(i));
+		}
+		
+	  if(s1.containsAll(s2))
+		  System.out.println("This two string are a anagrams");
+	  else
+		  System.out.println("This two string are not a anagrams");
+		
+	}
+
+}

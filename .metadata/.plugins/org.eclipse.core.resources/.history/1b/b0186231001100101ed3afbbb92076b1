@@ -1,0 +1,10 @@
+package com.nt.StringHandling.Questions;
+//Write a program to find the most frequently occurring character in a string.
+
+public class FindtheMostFrequentCharacter {
+
+	public static void main(String[] args) {
+
+	}
+
+}

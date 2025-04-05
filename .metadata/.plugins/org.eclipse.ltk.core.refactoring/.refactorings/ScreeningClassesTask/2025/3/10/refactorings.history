@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.nt.stream.CollectMethod_toMap&apos; to &apos;CollectMethod_groupingBy&apos;&#x0D;&#x0A;- Original project: &apos;ScreeningClassesTask&apos;&#x0D;&#x0A;- Original element: &apos;com.nt.stream.CollectMethod_toMap&apos;&#x0D;&#x0A;- Renamed element: &apos;com.nt.stream.CollectMethod_groupingBy&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;CollectMethod_toMap&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.nt.stream{CollectMethod_toMap.java[CollectMethod_toMap" matchStrategy="1" name="CollectMethod_groupingBy" qualified="false" references="true" similarDeclarations="false" stamp="1741403758641" textual="false" version="1.0"/>
+</session>

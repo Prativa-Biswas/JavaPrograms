@@ -1,0 +1,34 @@
+package com.nt.StringHandling.Questions;
+
+import java.util.Scanner;
+
+public class FindAllSubstrings {
+
+	public static void main(String[] args) {
+
+		Scanner sc= new Scanner(System.in);
+		System.out.println("Enter a String: ");
+		String str= sc.nextLine().trim();
+		int n=(str.length()*(str.length()+1))/2;
+		//System.out.println(n);
+		//System.out.println(str.substring(1, 2));
+		System.out.println("All possible substring are: ");
+		int j=0;
+		int k=1;
+		int l=str.length();
+		for(int i=0;i<=n;i++)
+		{		
+			if(j==l)
+			{
+				j=0;
+				k++;
+				l--;
+				
+			}
+			System.out.println(str.substring(j, j+k));
+			j++;			
+		}
+ 
+	}
+
+}
